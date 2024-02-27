@@ -1,5 +1,7 @@
 # Pokročilejší programování v Pythonu
 
+https://www.umimeinformatiku.cz/cviceni-regularni-vyrazy
+
 ## Regulární výrazy
 Regulární výrazy (nebo regex) jsou řetězce znaků, které definují vzory pro vyhledávání a manipulaci s textem. Tyto vzory jsou využívány v textových procesorech, programovacích jazycích a různých nástrojích pro práci s řetězci. Regulární výrazy umožňují flexibilní a mocné vyhledávání, filtraci a transformaci textových dat.
 
