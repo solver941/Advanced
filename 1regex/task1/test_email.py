@@ -1,4 +1,4 @@
-from email import validate_email
+from .email import validate_email
 
 
 def test_valid_email():
@@ -12,5 +12,7 @@ def test_invalid_email():
 
 def test_edge_cases():
     assert validate_email("") is False  # Prázdný řetězec není platná e-mailová adresa
-    assert validate_email("bezZnaku") is False  # Žádný znak '@', není platná e-mailová adresa
+    assert (
+        validate_email("bezZnaku") is False
+    )  # Žádný znak '@', není platná e-mailová adresa
     assert validate_email("jmeno@domena.") is False  # Chybějící top-level doména
