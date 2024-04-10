@@ -20,6 +20,6 @@ def test_email_hide():
     expected_persons = [
         "Jonatan: j***n@***e.com",
         "Jane: j***e@***t.cz",
-        "Mikie: m***e.smith@***d.org",
+        "Mikie: m***h@***d.org",
     ]
     assert email_hide(persons) == expected_persons
