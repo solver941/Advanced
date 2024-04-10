@@ -8,4 +8,4 @@ def test_pick_numbers():
 """
     excepted_numbers = [10, 22, 181, 11, 87, 12, 19, 33, 4455, 123456]
 
-    assert excepted_numbers == pick_numbers(text)
+    assert pick_numbers(text) == excepted_numbers
