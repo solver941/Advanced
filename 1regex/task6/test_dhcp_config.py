@@ -15,7 +15,7 @@ def test_check_dhcp_config():
     assert check_dhcp_config("cosi.kdesi.cz ha=0040389A5B60:ip=1.2.3.4") is False
     assert check_dhcp_config("cosi.kdesi.cz ha=0040389A5B6:ip=1.2.3.4:") is False
 
-    assert check_dhcp_config("cosi.kdesi.cz ha=ff4b389a5b60:ip=172.20.34.200") is True
+    assert check_dhcp_config("cosi.kdesi.cz ha=ff4b389a5b60:ip=172.20.34.200:") is True
     assert check_dhcp_config("cosi.kdesi.cz ha=ff4b389a5b60:ip=172.20.34") is False
 
 
